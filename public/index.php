@@ -22,19 +22,21 @@
         <div class="col px-0">
             <div class="row">
                 <div class="col" id="i-1">
-                    <img src="images/115_3.png" width="80%">
+                    <img src="images/115_3.png" width="90%">
                 </div>
                 <div class="col-6" id="pc-top">
                     <h1>BVE Data Forum</h1>
                     <p>お気に入りの路線を見つけよう。</p>
+                    
                 </div>
                 <!--もばいるよう-->
                 <div class="col" id="sm-top">
                     <h1>BVE Data Forum</h1>
                     <p>お気に入りの路線を見つけよう。</p>
+
                 </div>
                 <div class="col" id="i-2">
-                    <img src="images/115_sh_2.png" width="90%">
+                    <img src="images/115_sh_2.png" width="100%">
                 </div>
             </div>
     </div>

@@ -16,9 +16,12 @@
 #top_box h1{
     font-weight: bold;
 }
+
 #sm-top{
     visibility: hidden;
+    display: none;
 }
+
 @media screen and (max-width: 481px) {
     #i-1{
         display: none;
@@ -27,6 +30,7 @@
         display: none;
     }
     #sm-top{
+        display: inline-block;
         visibility: visible;
         margin: 0 auto;
         text-align: center;
