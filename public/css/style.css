@@ -1,11 +1,17 @@
-
+/*PC・タブレット用CSS*/
 *{
     font-family: 'Noto Sans JP', sans-serif;
+}
+body{
+    width: 100%;
+    background-image: linear-gradient(90deg, rgba(111, 179, 255, 1), rgba(207, 227, 255, 1));
 }
 
 .navbar .navbar-nav .nav-link {
     color: #009b03;
 }
+
+/*トップCSS*/
 #top_box{
     height: 450px;
     width: 100%;
@@ -22,11 +28,40 @@
     display: none;
 }
 
+#i-1{
+    text-align:center;
+    margin:0 auto;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+#i-2{
+    text-align:center;
+    margin:0 auto;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.col{
+    max-width: 98%;
+}
+
+/*NavMenu*/
+.navbar-nav >li{
+    display: inline-flex;
+    align-items: center
+}
+
+/*紹介欄Box*/
+.content-box{
+    margin-top:20px;
+    padding: 0.5em 1em;
+    color: #FFF;
+}
+
+/*スマートフォン向けCSS*/
 @media screen and (max-width: 481px) {
-    #i-1{
+    #t-1{
         display: none;
     }
-    #i-2{
+    #t-2{
         display: none;
     }
     #sm-top{
@@ -37,5 +72,11 @@
     }
     #pc-top{
         display: none;
+    }
+    .svg{
+        display: none;
+    }
+    #top_box{
+        /*height: 100px;*/
     }
 }
