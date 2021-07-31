@@ -8,6 +8,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="BVEのデータを投稿・ダウンロード。路線データから素材データまで">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -23,7 +24,7 @@
         <div class="col px-0">
             <div class="row">
                 <div class="col" id="t-1">
-                    <img src="images/t-1.JPG" id="i-1" width="80%">
+                    <img src="images/t-1.webp" id="i-1" width="80%">
                 </div>
                 <div class="col-6" id="pc-top">
                     <h1>BVE Data Forum</h1>
@@ -42,7 +43,7 @@
                 </div>
                 <!--END Mobile HTML-->
                 <div class="col" id="t-2">
-                    <img src="images/t-1-1.JPG" id="i-2" width="78%">
+                    <img src="images/t-1-1.webp" id="i-2" width="78%">
                 </div>
             </div>
         </div>
@@ -58,7 +59,7 @@
                 ※作者の基準に関しての詳細は作者申請ページをご覧ください。</p>
         </div>
         <div class="col-md-4">
-            <img src="images/download.png" width="70%">
+            <img src="images/download.webp" width="70%">
         </div>
     </div>
     <div class="row content-box">
@@ -67,7 +68,7 @@
             <p>路線データから車両データ・素材データなどすぐに検索することができます。</p>
         </div>
         <div class="col-md-4">
-            <img src="images/115_3.png" width="70%">
+            <img src="images/115_3.webp" width="70%">
         </div>
     </div>
     <div class="row content-box">
@@ -77,7 +78,7 @@
             データの不正なアーカイブを禁止します。</p>
         </div>
         <div class="col-md-4">
-            <img src="images/corn.png" width="70%">
+            <img src="images/corn.webp" width="70%">
         </div>
     </div>
     <div class="row content-box">
@@ -89,15 +90,15 @@
                 <u>※このシステム・取り組みは、DMCAに反する行為の容認を目的とするものではありません。</u></p>
         </div>
         <div class="col-md-4">
-            <img src="images/web.png" width="70%">
+            <img src="images/web.webp" width="70%">
         </div>
     </div>
 </div>
 
 <script>
         ScrollReveal().reveal('.content-box *', {
-            delay: 300, // アニメーション開始までの時間
-            duration: 1600, // アニメーション完了にかかる時間
+            delay: 100, // アニメーション開始までの時間
+            duration: 1500, // アニメーション完了にかかる時間 default:1600
             origin: 'left', // 要素がどの方向から来るか
             distance: '100px', // 移動する距離
             reset: false // フレームインの度に動かすか

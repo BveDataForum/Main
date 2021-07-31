@@ -26,7 +26,7 @@ created by https://bbbootstrap.com/snippets/login-form-footer-and-social-media-i
             <div class="col-lg-6">
                 <div class="card1 pb-5">
 
-                    <div class="row px-3 justify-content-center mt-4 mb-5 border-line"> <img src="images/115_sh_2.png" class="image"><p style="text-align: center">&copy; サハ２０９様制作ストラクチャー</p> </div>
+                    <div class="row px-3 justify-content-center mt-4 mb-5 border-line"> <img src="images/115_sh_2.webp" class="image"><p style="text-align: center">&copy; サハ２０９様制作ストラクチャー</p> </div>
                 </div>
             </div>
             <div class="col-lg-6">
