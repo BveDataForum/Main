@@ -95,6 +95,18 @@
     </div>
 </div>
 
+<div class="container-fluid" id="top_box">
+    <div class="row" style="height: 80px;">
+        <h2 class="text-center"><b>早速データを投稿・ダウンロード!</b></h2>
+        <p class="text-center">BVEで出発進行～♪</p>
+        <div class="text-center">
+            <button class="btn btn-light">会員登録はこちら</button>
+        </div>
+    </div>
+</div>
+<?php
+    include "footer.php";
+?>
 <script>
         ScrollReveal().reveal('.content-box *', {
             delay: 100, // アニメーション開始までの時間

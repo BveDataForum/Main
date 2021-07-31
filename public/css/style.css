@@ -56,6 +56,11 @@ body{
     color: #FFF;
 }
 
+.user-login-area{
+    background-color: #009b03;
+    width: 98%;
+}
+
 /*スマートフォン向けCSS*/
 @media screen and (max-width: 481px) {
     #t-1{
