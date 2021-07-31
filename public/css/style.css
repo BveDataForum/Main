@@ -61,6 +61,10 @@ body{
     width: 98%;
 }
 
+.register-box *{
+    color: black;
+}
+
 /*スマートフォン向けCSS*/
 @media screen and (max-width: 481px) {
     #t-1{

@@ -32,7 +32,7 @@
                 <input class="form-control me-2" type="search" placeholder="路線/データ名で検索" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
-            <button type="button" class="btn btn-success" style="margin-left: 5px;">会員登録</button>
+            <button type="button" class="btn btn-success" style="margin-left: 5px;" <button type="button" onclick="location.href='http://localhost/register/register.php'">会員登録</button>
         </div>
     </div>
 </nav>
